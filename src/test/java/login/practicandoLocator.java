@@ -28,7 +28,5 @@ public class practicandoLocator {
         driver.findElement(By.cssSelector("input[id='password']")).sendKeys("PASSCONFIRM");
         driver.findElement(By.id("confirmPassword")).sendKeys("PASSCONFIRM");
         driver.findElement(By.id("confirmPassword")).sendKeys(Keys.ENTER);
-
-
     }
 }
